@@ -1,3 +1,17 @@
-:host(#homeSect){
-    border:1px solid red;
+#homeSect{
+    background-color: #f8f9fa;
+}
+
+
+#homeSect .row{
+    margin: 0px;
+    padding:15px;
+}
+
+#homeSect h2{
+  text-align: center;
+}
+
+#homeSect .col-md-6{
+   
 }
