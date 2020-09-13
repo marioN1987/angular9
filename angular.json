@@ -24,6 +24,7 @@
               "src/assets"
             ],
             "styles": [
+              "node_modules/bootstrap/dist/css/bootstrap.min.css",
               "src/styles.css"
             ],
             "scripts": []
@@ -88,9 +89,14 @@
               "src/assets"
             ],
             "styles": [
+              "./node_modules/bootstrap/dist/css/bootstrap1.css",
               "src/styles.css"
             ],
-            "scripts": []
+            "scripts": [
+              "./node_modules/jquery/dist/jquery.min.js",
+              "./node_modules/bootstrap/dist/js/bootstrap.min.js",
+              "./node_modules/popper.js/dist/popper.js"
+            ]
           }
         },
         "lint": {
@@ -119,6 +125,10 @@
           }
         }
       }
-    }},
-  "defaultProject": "AngularProject"
+    }
+  },
+  "defaultProject": "AngularProject",
+  "cli": {
+    "analytics": "25df92f2-f55b-4b95-a9c7-a9d66b8b1013"
+  }
 }
