@@ -1,7 +1,6 @@
 #homeSect{
-    background-color: #f8f9fa;
+    
 }
-
 
 #homeSect .row{
     margin: 0px;
@@ -9,6 +8,12 @@
 }
 
 #homeSect h2{
+  font-size:30px;
+  text-align: center;
+  padding:20px 0px;
+}
+
+#homeSect .homeImg{
   text-align: center;
 }
 
