@@ -1,8 +1,14 @@
 #portfolioSect{
-    background-color: #f8f9fa;
+
 }
 
 #portfolioSect .row{
     margin: 0px;
     padding:15px;
+}
+
+#portfolioSect h2{
+    text-align: center;
+    padding:20px 0px;
+
 }

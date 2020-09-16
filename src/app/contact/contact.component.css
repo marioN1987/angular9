@@ -6,3 +6,30 @@
     margin: 0px;
     padding:15px;
 }
+
+#contactSect h2{
+  text-align: center;
+  padding:20px 0px;
+}
+
+button[type=submit] {
+    background-color: lightblue;
+    width:100px;
+    padding:5px;
+    font-size:18px;
+    outline: 0px;
+    border: 0px;
+    transition: .5s ease;
+}
+
+button[type=submit]:hover {
+    background-color: deepskyblue;
+    color:#fff;
+}
+
+button[type=submit]:disabled {
+    background-color: #333;
+    color: #fff;
+    cursor: default;
+
+}
